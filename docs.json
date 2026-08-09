@@ -3,8 +3,8 @@
   "theme": "luma",
   "name": "Stalyx",
   "colors": {
-    "primary": "#1f4e8c",
-    "light": "#386cb0",
+    "primary": "#2f7ce1",
+    "light": "#2f7ce1",
     "dark": "#0a2e5c"
   },
   "favicon": {
@@ -34,7 +34,34 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "tabs": [
+      {
+        "tab": "Knowledge Base",
+        "icon": "book-open-alt",
+        "pages": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "icon": "newspaper",
+        "menu": [
+          {
+            "item": "Status",
+            "icon": "satellite-dish",
+            "description": "Access our server status.",
+            "href": "https://status.stalyx.xyz"
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/images/Black.png",
@@ -96,5 +123,8 @@
   "appearance": {
     "default": "dark",
     "strict": true
+  },
+  "background": {
+    "decoration": "gradient"
   }
 }

@@ -47,7 +47,8 @@
               {
                 "group": "Base Information",
                 "pages": [
-                  "home"
+                  "home",
+                  "about-stalyx"
                 ]
               }
             ]

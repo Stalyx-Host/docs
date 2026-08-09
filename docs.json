@@ -114,8 +114,15 @@
       {
         "tab": "Legal",
         "icon": "file-alt",
-        "pages": [
-          "legal/tos"
+        "groups": [
+          {
+            "group": "Essential",
+            "pages": [
+              "legal/tos",
+              "legal/privacy",
+              "legal/refunds"
+            ]
+          }
         ]
       },
       {

@@ -39,12 +39,30 @@
       {
         "tab": "Knowledge Base",
         "icon": "book-open-alt",
-        "pages": [
+        "dropdowns": [
           {
-            "group": "Getting Started",
-            "pages": [
-              "index",
-              "quickstart"
+            "dropdown": "Home",
+            "icon": "home",
+            "groups": [
+              {
+                "group": "Base Information",
+                "pages": [
+                  "home"
+                ]
+              }
+            ]
+          },
+          {
+            "dropdown": "Hosting Types",
+            "icon": "server",
+            "groups": [
+              {
+                "group": "Discord",
+                "expanded": true,
+                "pages": [
+                  "home"
+                ]
+              }
             ]
           }
         ]

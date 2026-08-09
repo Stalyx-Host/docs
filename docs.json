@@ -56,8 +56,37 @@
   "footer": {
     "socials": {
       "x": "https://x.com/@stalyxhost",
-      "discord": "https://discord.gg/stalyx"
-    }
+      "discord": "https://discord.gg/stalyx",
+      "website": "https://stalyx.xyz"
+    },
+    "links": [
+      {
+        "header": "Important",
+        "items": [
+          {
+            "label": "Billing Site",
+            "href": "https://billing.stalyx.xyz"
+          },
+          {
+            "label": "Panel Site",
+            "href": "https://panel.stalyx.xyz"
+          },
+          {
+            "label": "Status",
+            "href": "https://status.stalyx.xyz"
+          }
+        ]
+      },
+      {
+        "header": "Main Pages",
+        "items": [
+          {
+            "label": "Discord Bot Hosting",
+            "href": "/"
+          }
+        ]
+      }
+    ]
   },
   "errors": {
     "404": {

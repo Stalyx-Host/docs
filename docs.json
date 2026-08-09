@@ -49,6 +49,13 @@
         ]
       },
       {
+        "tab": "Legal",
+        "icon": "file-alt",
+        "pages": [
+          "legal/tos"
+        ]
+      },
+      {
         "tab": "Knowledge Base",
         "icon": "book-open-alt",
         "dropdowns": [

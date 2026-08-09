@@ -92,5 +92,9 @@
     "404": {
       "redirect": false
     }
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
   }
 }

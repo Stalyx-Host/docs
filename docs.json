@@ -188,6 +188,23 @@
             "href": "/"
           }
         ]
+      },
+      {
+        "header": "Legal Information",
+        "items": [
+          {
+            "label": "Terms of Service",
+            "href": "/legal/tos"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "/legal/privacy"
+          },
+          {
+            "label": "Refund Policy",
+            "href": "/legal/refunds"
+          }
+        ]
       }
     ]
   },

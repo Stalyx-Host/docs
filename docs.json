@@ -37,31 +37,62 @@
     },
     "tabs": [
       {
+        "tab": "Home",
+        "icon": "globe",
+        "groups": [
+          {
+            "group": "Base Information",
+            "pages": [
+              "home"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Knowledge Base",
         "icon": "book-open-alt",
         "dropdowns": [
           {
-            "dropdown": "Home",
-            "icon": "home",
+            "dropdown": "Accounts",
+            "icon": "user",
             "groups": [
               {
-                "group": "Base Information",
+                "group": "Billing Panel",
+                "icon": "arrow-right",
                 "pages": [
-                  "home"
+                  {
+                    "group": "Basics",
+                    "expanded": true,
+                    "pages": [
+                      "accounts/billing/soon"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Server Panel",
+                "icon": "arrow-right",
+                "pages": [
+                  {
+                    "group": "Basics",
+                    "expanded": true,
+                    "pages": [
+                      "accounts/main/soon"
+                    ]
+                  }
                 ]
               }
             ]
           },
           {
-            "dropdown": "Hosting Types",
-            "icon": "server",
+            "dropdown": "Setup",
+            "icon": "file-alt",
             "groups": [
               {
                 "group": "Discord",
                 "expanded": true,
-                "pages": [
-                  "home"
-                ]
+                "pages": [],
+                "icon": "arrow-right"
               }
             ]
           }

@@ -64,7 +64,7 @@
                     "group": "Basics",
                     "expanded": true,
                     "pages": [
-                      "accounts/billing/soon"
+                      "articles/accounts/billing/soon"
                     ]
                   }
                 ]
@@ -77,7 +77,7 @@
                     "group": "Basics",
                     "expanded": true,
                     "pages": [
-                      "accounts/main/soon"
+                      "articles/accounts/main/soon"
                     ]
                   }
                 ]
@@ -85,13 +85,25 @@
             ]
           },
           {
-            "dropdown": "Setup",
-            "icon": "file-alt",
+            "dropdown": "Servers",
+            "icon": "server",
             "groups": [
               {
                 "group": "Discord",
                 "expanded": true,
-                "pages": [],
+                "pages": [
+                  {
+                    "group": "Info",
+                    "expanded": true,
+                    "pages": [
+                      "articles/servers/discord/info/soon"
+                    ]
+                  },
+                  {
+                    "group": "Features",
+                    "pages": []
+                  }
+                ],
                 "icon": "arrow-right"
               }
             ]

@@ -37,28 +37,21 @@
     },
     "tabs": [
       {
-        "tab": "Home",
-        "icon": "globe",
-        "groups": [
-          {
-            "group": "Base Information",
-            "pages": [
-              "home"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Legal",
-        "icon": "file-alt",
-        "pages": [
-          "legal/tos"
-        ]
-      },
-      {
         "tab": "Knowledge Base",
         "icon": "book-open-alt",
         "dropdowns": [
+          {
+            "dropdown": "General",
+            "icon": "screwdriver-wrench",
+            "groups": [
+              {
+                "group": "Base Information",
+                "pages": [
+                  "home"
+                ]
+              }
+            ]
+          },
           {
             "dropdown": "Accounts",
             "icon": "user",
@@ -97,6 +90,7 @@
             "groups": [
               {
                 "group": "Discord",
+                "icon": "arrow-right",
                 "expanded": true,
                 "pages": [
                   {
@@ -110,11 +104,17 @@
                     "group": "Features",
                     "pages": []
                   }
-                ],
-                "icon": "arrow-right"
+                ]
               }
             ]
           }
+        ]
+      },
+      {
+        "tab": "Legal",
+        "icon": "file-alt",
+        "pages": [
+          "legal/tos"
         ]
       },
       {

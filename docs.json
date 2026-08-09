@@ -9,7 +9,7 @@
   },
   "favicon": {
     "light": "/images/Artboard5White.png",
-    "dark": "/images/Artboard4Black.png"
+    "dark": "/images/Artboard5White.png"
   },
   "navigation": {
     "pages": [
@@ -37,8 +37,8 @@
     }
   },
   "logo": {
-    "light": "/images/White.png",
-    "dark": "/images/Black.png"
+    "light": "/images/Black.png",
+    "dark": "/images/White.png"
   },
   "navbar": {
     "links": [

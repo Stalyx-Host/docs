@@ -47,8 +47,7 @@
               {
                 "group": "Base Information",
                 "pages": [
-                  "home",
-                  "directory"
+                  "home"
                 ]
               }
             ]
